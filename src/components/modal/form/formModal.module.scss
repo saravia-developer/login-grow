@@ -1,0 +1,11 @@
+.container-form-modal {
+  display: grid;
+  gap: 10px 0;
+
+  > div {
+
+    label {
+      font-weight: 600;
+    }
+  }
+}

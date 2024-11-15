@@ -1,0 +1,87 @@
+.container-login {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 700px;
+
+  .one-part {
+    display: grid;
+    justify-content: right;
+    align-items: center;
+    width: clamp(280px, 100%, 35%);
+
+    img {
+      height: 450px;
+    }
+  }
+
+  .two-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: clamp(280px, 100%, 35%);
+
+    > form {
+      display: inherit;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 500px;
+    }
+
+    .container-field-login {
+      span {
+        display: flex;
+        align-items: center;
+      }
+
+      .custom-button {
+        height: 50px;
+        margin-bottom: 20px;
+        border-radius: 0;
+        border: none;
+        border-bottom: 2px solid black;
+      }
+
+      .ant-input-prefix {
+        margin: 0 10px 0 0;
+
+        img {
+          width: 16px;
+        }
+      }
+    }
+
+    .container-checkbox {
+      display: flex;
+      gap: 10px;
+
+      input[type="checkbox"] {
+        border: 2px solid gray;
+      }
+    }
+
+    button {
+      height: 45px;
+      width: 80px;
+    }
+
+    .othersLogin {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        padding-right: 15px;
+      }
+
+      img {
+        background-size: cover;
+        object-fit: cover;
+        border-radius: 5px;
+        margin: 0 4px;
+      }
+    }
+  }
+}

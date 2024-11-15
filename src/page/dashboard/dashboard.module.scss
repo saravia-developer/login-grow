@@ -1,0 +1,19 @@
+.container-buttons-edit-and-delete {
+  display: flex;
+  gap: 0 10px;
+}
+
+// .ant-spin-container{
+//   background-color: green;
+// }
+// .ant-pagination.ant-table-pagination.ant-table-pagination-right.css-dev-only-do-not-override-apn68 {
+//   display: none !important;
+// }
+
+.hide-buttons {
+
+  ul, ul::before {
+    display: none !important;
+    visibility: hidden;
+  }
+}

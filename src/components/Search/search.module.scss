@@ -1,0 +1,20 @@
+.container-search {
+  width: clamp(150px, 100%, 270px);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  
+
+  label {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .search {
+    display: flex;
+    gap: 0 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}
